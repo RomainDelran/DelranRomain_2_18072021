@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/e6aa8bf918.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <header>
-        <nav>
 
-        </nav>
+        <div id="HautHeader">
+            <p>
+                <img src="Images/LogoEtIcones/LogoReserviaPetit.png" alt="Logo Reservia" />
+            </p>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <p>Trouvez votre hébergement pour des vacances de rêve</p>
+        <p>En plein centre ville ou en pleine nature</p>
+
+
+            <form method="post" action="traitement.php">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="Localisation" id="Localisation" placeholder="Marseille, France" size="20" maxlength="10" />
+                    <input type="submit" value="Rechercher" />
+                </p>
+            </form>
+
+            <div id="LigneFiltre">
+                <p>Filtre</p>
+                <div id="Filtres">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h2>Economique</h2>
+                </div>
+                <div id="Filtres">
+                    <i class="fas fa-child"></i>
+                    <h2>Familial</h2>
+                </div>
+                <div id="Filtres">
+                    <i class="fas fa-heart"></i>
+                    <h2>Romantique</h2>
+                </div>
+                <div id="Filtres">
+                    <i class="fas fa-dog"></i>
+                    <h2>Animaux autorisés</h2>
+                </div>
+
+                <i class="fas fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+      
     </header>
 
     <div>
