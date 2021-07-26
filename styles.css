@@ -81,7 +81,7 @@ nav{
 #PositionTexte {
     padding: 10px;
     text-decoration: none;
-    border: 4px 0 20px 0px;
+    border: 4px 0 20px ;
     box-sizing: border-box;
 }
 
@@ -119,7 +119,7 @@ nav{
     border-radius:20px 20px 20px 20px;
     padding: 10px 10px 10PX 10px;
     margin: 0PX ;
-    background-color:  #c7d8f7; 
+    background-color:  #DEEBFF; 
   }
   
   #TexteEconomique{
@@ -134,7 +134,7 @@ nav{
     border-radius:20px 20px 20px 20px;
     padding: 10px 10px 10PX 10px;
     margin: 0PX ;
-    background-color:  #c7d8f7;
+    background-color:  #DEEBFF;
   }
   
   #TexteFamilial{
@@ -150,7 +150,7 @@ nav{
     border-radius:20px 20px 20px 20px;
     padding: 10px 10px 10PX 10px;
     margin: 0PX ;
-    background-color:  #c7d8f7; 
+    background-color:  #DEEBFF; 
   }
   
   #TexteRomantique{
@@ -165,7 +165,7 @@ nav{
     border-radius:20px 20px 20px 20px;
     padding: 10px 10px 10PX 10px;
     margin: 0PX ;
-    background-color:  #c7d8f7; 
+    background-color:  #DEEBFF; 
   }
   
   #TexteAnimauxAutorises{
@@ -200,11 +200,6 @@ nav{
  }
 
 
-
-
-
-
-
 /* Footer */
 
 footer{
@@ -224,8 +219,110 @@ ul {
     padding-left:0;
     }
 
+/* Section */
+
+#ContainerHebergementEtPopulaires{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Hebergement{
+    width: 65.67%;
+    background-color: #F2F2F2;
+    border-radius:20px 20px 20px 20px;
+
+}
+
+#Hebergement h1{
+    font-size: 1em;
+    padding: 20px 0px 0px 30px;
+}
+
+.LigneHebergement{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Etoiles {
+    display: flex;
+    margin: 4px;
+}
+
+.Information h2 {
+    margin: 4px;
+    font-size: 0.7em;
+}
+.Information p {
+    margin: 4px;
+    font-size: 0.7em;
+}
+
+
+
+.BaseHebergement {
+    margin: 30px ;
+    height: 200px;
+    width: 246px;
+    border-radius: 20px;
+    border: 4px solid #ffffff; 
+    box-shadow: 4px 4px 15px #22201fa2;
+    z-index: 1;
+    position: relative;
+}
+ /*
+.BaseHebergement :hover{
+    border: 4px solid rgb(78, 78, 78);
+}
+*/
+#AubergeLaCannebiere{
+    background-image: url("Images/Hebergement/AubergeCannebiere_petit.jpg") ;
+}
+#HotelLesMouette{
+    background-image: url("Images/Hebergement/HotelLesMouettes_petit.jpg") ;
+}
+#HotelDuPort{
+    background-image: url("Images/Hebergement/HotelDuPort_petit.jpg") ;
+}
+#HotelDeLaMer{
+    background-image: url("Images/Hebergement/HotelDeLaMer_petit.jpg") ;
+}
+#AubergeLePanier{
+    background-image: url("Images/Hebergement/AubergeLePanier_petit.jpg") ;
+}
+#HotelChezAmina{
+    background-image: url("Images/Hebergement/HotelChezAmina_petit.jpg") ;
+}
+
+.Information {
+    height: 35% ;
+    width: 99%;
+    background-color: #ffffff;
+    /*border: 0px solid #ffffff; */
+    z-index: 2;
+    border-radius:0px 0px 15px 15px;
+    position: absolute;
+    bottom: -1px;
+    left: -4px;
+    padding-left: 10px;
+}
+
+#AfficherPlus {
+    font-size: 0.95em;
+    margin: 20px 0px 30px 30px;
+}
 
 
 
 
+#Populaires {
+    width: 31.34%;
+    background-color: #F2F2F2;
+    border-radius:20px 20px 20px 20px;
+
+}
+
+#Activites {
+
+}
 
