@@ -238,7 +238,7 @@ ul {
     background-color: #F2F2F2;
     border-radius:20px 20px 20px 20px;
     position: relative;
-    
+
 }
 
 #Hebergement h1{
@@ -248,15 +248,40 @@ ul {
 
 .LigneHebergement{
     margin-top: 30px;
-    display: flex;
     position:relative;
-}
-
-.EtoilesHebergement {
     display: flex;
-    margin: 4px;
+    height: 246px;
 }
 
+
+
+
+
+.BaseHebergement {
+    position: relative;
+    margin:  0% 2%  0 2% ;
+}
+.ImageHebergement{
+    margin:  0 0% 0 0% ;
+    height: 200px;
+    width: 95%;
+    border-radius: 20px;
+    border: 4px solid #ffffff; 
+    box-shadow: 4px 4px 15px #22201fa2;
+    z-index: 1;
+    position: relative;
+}
+.InformationHebergement {
+    height: 35% ;
+    width: 95.5%;
+    background-color: #ffffff;
+    z-index: 2;
+    border-radius:0px 0px 15px 15px;
+    position: absolute;
+    left: 1.8%;
+    bottom: 42px;
+
+}
 .InformationHebergement h2 {
     margin: 4px;
     font-size: 0.7em;
@@ -265,40 +290,12 @@ ul {
     margin: 4px;
     font-size: 0.7em;
 }
-
-.BaseHebergement {
-    position: relative;
-
-}
-
-.ImageHebergement{
-    
-    margin:  0 5% 0 5% ;
-    height: 200px;
-    width: 28%;
-    border-radius: 20px;
-    border: 4px solid #7c0a0a; 
-    box-shadow: 4px 4px 15px #22201fa2;
-    z-index: 1;
-    position: relative;
+.EtoilesHebergement {
+    display: flex;
+    margin: 4px;
 }
 
 
-
-
-
-.InformationHebergement {
-    height: 35% ;
-    width: 28.1%;
-    background-color: #83c40c;
-    /*border: 0px solid #ffffff; */
-    z-index: 2;
-    border-radius:0px 0px 15px 15px;
-    position: absolute;
-    left: 0.5%;
-    bottom: 8px;
-    margin:  0 5% 0 5% ;
-}
 
 #AfficherPlusHebergement {
     font-size: 0.95em;
