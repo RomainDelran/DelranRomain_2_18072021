@@ -12,7 +12,7 @@
     font-style: normal;
 }
 
-@font-face{ /* Définition d'une nouvelle police nommée Raleway-Italic*/
+@font-face{ /* Définition d'une nouvelle police nommée Raleway-Bold*/
     font-family: 'Raleway-Bold';
     src: url('Raleway/static/Raleway-Bold.ttf') format('truetype');
     font-weight: normal;
@@ -26,6 +26,7 @@ body {
 #Container{
     width: 80%;
     max-width: 1340px;
+    min-width: 850px;
     margin: auto;
 }
 
@@ -227,90 +228,88 @@ ul {
 
 }
 
+
+
+
+
+
 #Hebergement{
     width: 65.67%;
     background-color: #F2F2F2;
     border-radius:20px 20px 20px 20px;
-
+    position: relative;
+    
 }
 
 #Hebergement h1{
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 20px 0px 0px 30px;
 }
 
 .LigneHebergement{
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    position:relative;
 }
 
-.Etoiles {
+.EtoilesHebergement {
     display: flex;
     margin: 4px;
 }
 
-.Information h2 {
+.InformationHebergement h2 {
     margin: 4px;
     font-size: 0.7em;
 }
-.Information p {
+.InformationHebergement p {
     margin: 4px;
     font-size: 0.7em;
 }
-
-
 
 .BaseHebergement {
-    margin: 30px ;
+    position: relative;
+
+}
+
+.ImageHebergement{
+    
+    margin:  0 5% 0 5% ;
     height: 200px;
-    width: 246px;
+    width: 28%;
     border-radius: 20px;
-    border: 4px solid #ffffff; 
+    border: 4px solid #7c0a0a; 
     box-shadow: 4px 4px 15px #22201fa2;
     z-index: 1;
     position: relative;
 }
- /*
-.BaseHebergement :hover{
-    border: 4px solid rgb(78, 78, 78);
-}
-*/
-#AubergeLaCannebiere{
-    background-image: url("Images/Hebergement/AubergeCannebiere_petit.jpg") ;
-}
-#HotelLesMouette{
-    background-image: url("Images/Hebergement/HotelLesMouettes_petit.jpg") ;
-}
-#HotelDuPort{
-    background-image: url("Images/Hebergement/HotelDuPort_petit.jpg") ;
-}
-#HotelDeLaMer{
-    background-image: url("Images/Hebergement/HotelDeLaMer_petit.jpg") ;
-}
-#AubergeLePanier{
-    background-image: url("Images/Hebergement/AubergeLePanier_petit.jpg") ;
-}
-#HotelChezAmina{
-    background-image: url("Images/Hebergement/HotelChezAmina_petit.jpg") ;
-}
 
-.Information {
+
+
+
+
+.InformationHebergement {
     height: 35% ;
-    width: 99%;
-    background-color: #ffffff;
+    width: 28.1%;
+    background-color: #83c40c;
     /*border: 0px solid #ffffff; */
     z-index: 2;
     border-radius:0px 0px 15px 15px;
     position: absolute;
-    bottom: -1px;
-    left: -4px;
-    padding-left: 10px;
+    left: 0.5%;
+    bottom: 8px;
+    margin:  0 5% 0 5% ;
 }
 
-#AfficherPlus {
+#AfficherPlusHebergement {
     font-size: 0.95em;
-    margin: 20px 0px 30px 30px;
+    margin: 60px 0px 30px 30px;
+    position: relative;
+    bottom: 0px;
 }
+
+
+
+
 
 
 
@@ -319,8 +318,58 @@ ul {
     width: 31.34%;
     background-color: #F2F2F2;
     border-radius:20px 20px 20px 20px;
+    position: relative;
+}
+#Populaires h1{
+    font-size: 1.3em;
+    padding: 20px 0px 0px 30px;
+}
+
+.ImagePopulaire{
+    margin:  0 5% 0 5% ;
+    height: 145px;
+    width: 82.38%;;
+    border-radius: 20px;
+    border: 4px solid #ffffff; 
+    box-shadow: 4px 4px 15px #22201fa2;
+    z-index: 1;
+    position: relative;
+}
+
+.InformationPopulaire{
+    position: absolute;
+    height: 145px;
+    width: 50%;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius:0px 15px 15px 0px;
+    right: 6.2%;
+    bottom: 8px;
+    margin:  0 5% 0 5% ;
+}
+.EtoilesPopulaire {
+    display: flex;
+    margin: 4px 4px 4px 15px;
+    position: absolute;
+    bottom: 0px;
 
 }
+.BasePoupulaire{
+    margin: 30px 0px 0px 0px;
+    position: relative;
+}
+
+.InformationPopulaire h2 {
+    margin: 4px 4px 4px 15px;
+    font-size: 0.7em;
+    text-decoration: none ;
+}
+.InformationPopulaire p {
+    margin: 4px 4px 4px 15px;
+    font-size: 0.7em;
+    text-decoration: none ;
+}
+
 
 #Activites {
 
