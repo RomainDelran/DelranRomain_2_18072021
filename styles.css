@@ -19,6 +19,15 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:visited {
+     color: rgb(0, 0, 0);
+}
+
+
 body {
 	font-family: 'Raleway', Arial, serif;
 }
@@ -26,7 +35,7 @@ body {
 #Container{
     width: 80%;
     max-width: 1340px;
-    min-width: 850px;
+    min-width: 750px;
     margin: auto;
 }
 
@@ -98,6 +107,7 @@ nav{
 
 #LigneFiltre{
     display: flex;
+
 }
 
 #FiltreFiltre{
@@ -106,7 +116,7 @@ nav{
 }
 
 
-.Filtres{
+.Filtres a{
     display: flex;
     height: 30px;
     margin: 20px;
@@ -114,6 +124,18 @@ nav{
     border-radius:20px 20px 20px 20px;
     border: 2px solid #F2F2F2;  
     padding: 2px 6px 2px 0px;
+  }
+
+  
+  .Filtres a:hover{
+    display: flex;
+    height: 30px;
+    margin: 20px;
+    align-items :center;
+    border-radius:20px 20px 20px 20px;
+    border: 2px solid #F2F2F2;  
+    padding: 2px 6px 2px 0px;
+    background-color: #0065FC;
   }
   
   #FiltreEconomique{
@@ -122,14 +144,11 @@ nav{
     margin: 0PX ;
     background-color:  #DEEBFF; 
   }
-  
   #TexteEconomique{
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
     padding: 0px 0px 0PX 10px;
   }
-
-
 
   #FiltreFamilial{
     border-radius:20px 20px 20px 20px;
@@ -137,15 +156,11 @@ nav{
     margin: 0PX ;
     background-color:  #DEEBFF;
   }
-  
   #TexteFamilial{
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
     padding: 0px 0px 0PX 10px;
   }
-
-
-
 
   #FiltreRomantique{
     border-radius:20px 20px 20px 20px;
@@ -153,14 +168,11 @@ nav{
     margin: 0PX ;
     background-color:  #DEEBFF; 
   }
-  
   #TexteRomantique{
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
     padding: 0px 0px 0PX 10px;
   }
-
-
 
   #FiltreAnimauxAutorises{
     border-radius:20px 20px 20px 20px;
@@ -168,24 +180,10 @@ nav{
     margin: 0PX ;
     background-color:  #DEEBFF; 
   }
-  
   #TexteAnimauxAutorises{
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
     padding: 0px 0px 0PX 10px;
-  }
-
-
-
-  .Filtres:hover{
-    display: flex;
-    height: 30px;
-    margin: 20px;
-    align-items :center;
-    border-radius:20px 20px 20px 20px;
-    border: 2px solid #F2F2F2;  
-    padding: 2px 6px 2px 0px;
-    background-color: rgb(201, 200, 200);
   }
 
  #Info{
@@ -195,7 +193,6 @@ nav{
     margin: 7PX 7PX 0PX 0PX ;
     border: 2px solid #F2F2F2; 
  }
-
  #LigneInfo{
     display: flex;
  }
@@ -206,9 +203,11 @@ nav{
 footer{
     display: flex;
     background-color:#F2F2F2  ;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
+
+
+
 
 .TitreFooter{
     font-size: 1em;
@@ -220,6 +219,8 @@ ul {
     padding-left:0;
     }
 
+
+
 /* Section */
 
 #ContainerHebergementEtPopulaires{
@@ -230,15 +231,11 @@ ul {
 
 
 
-
-
-
 #Hebergement{
     width: 65.67%;
     background-color: #F2F2F2;
     border-radius:20px 20px 20px 20px;
     position: relative;
-
 }
 
 #Hebergement h1{
@@ -250,37 +247,38 @@ ul {
     margin-top: 30px;
     position:relative;
     display: flex;
+    
     height: 246px;
 }
-
-
-
-
-
 .BaseHebergement {
     position: relative;
     margin:  0% 2%  0 2% ;
-}
-.ImageHebergement{
-    margin:  0 0% 0 0% ;
+    width: 25%;
     height: 200px;
-    width: 95%;
-    border-radius: 20px;
+    overflow: hidden;
     border: 4px solid #ffffff; 
     box-shadow: 4px 4px 15px #22201fa2;
+    border-radius: 20px;
+    display: flex;
+    margin:  0 auto;
+}
+.BaseHebergement:hover{
+    border: 4px solid  #0065FC; 
+}
+.ImageHebergement{
+    height: 200px;
     z-index: 1;
     position: relative;
 }
 .InformationHebergement {
     height: 35% ;
-    width: 95.5%;
+    width: 100%;
     background-color: #ffffff;
     z-index: 2;
     border-radius:0px 0px 15px 15px;
     position: absolute;
-    left: 1.8%;
-    bottom: 42px;
-
+    left: 0;
+    bottom: 0px;
 }
 .InformationHebergement h2 {
     margin: 4px;
@@ -294,8 +292,6 @@ ul {
     display: flex;
     margin: 4px;
 }
-
-
 
 #AfficherPlusHebergement {
     font-size: 0.95em;
@@ -317,31 +313,34 @@ ul {
     border-radius:20px 20px 20px 20px;
     position: relative;
 }
-#Populaires h1{
+#PopulaireTitreEtIcone{
+    display: flex;  
+    justify-content: space-between;
+}
+#PopulaireTitreEtIcone h1{
     font-size: 1.3em;
     padding: 20px 0px 0px 30px;
 }
 
+#IconeGraphique{    
+    margin-top: 40px;
+    margin-right: 40px;   
+}
+
 .ImagePopulaire{
-    margin:  0 5% 0 5% ;
     height: 145px;
-    width: 82.38%;;
-    border-radius: 20px;
-    border: 4px solid #ffffff; 
-    box-shadow: 4px 4px 15px #22201fa2;
     z-index: 1;
     position: relative;
 }
 
 .InformationPopulaire{
     position: absolute;
-    height: 145px;
-    width: 50%;
     z-index: 2;
     background-color: #ffffff;
-    border-radius:0px 15px 15px 0px;
-    right: 6.2%;
-    bottom: 8px;
+    right: -20px;
+    width: 50%;
+    height: 145px;
+    bottom: -0px;
     margin:  0 5% 0 5% ;
 }
 .EtoilesPopulaire {
@@ -352,10 +351,19 @@ ul {
 
 }
 .BasePoupulaire{
-    margin: 30px 0px 0px 0px;
     position: relative;
+    margin:  0 auto;
+    border: 4px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px #22201fa2;
+    overflow: hidden;    
+    height: 145px;
+    width: 85%;
+    margin-top: 30px;
 }
-
+.BasePoupulaire:hover{
+    border: 4px solid #0065FC;
+}
 .InformationPopulaire h2 {
     margin: 4px 4px 4px 15px;
     font-size: 0.7em;
@@ -368,7 +376,85 @@ ul {
 }
 
 
-#Activites {
 
+#Activites h1 {
+    font-size: 1.4em;
+    text-decoration: none ;
+    margin-top: 30px;
+}
+#LigneActivite{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.BaseActivite1{
+    position: relative;
+    width: 22%;
+    height: 440px;
+    overflow: hidden;
+     border-radius: 20px;
+    box-shadow: 4px 4px 15px #22201fa2;
+}
+.ImageActivite{
+    z-index: 1;
+    position: relative;
+}
+.InformationActivite{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    background-color: #ffffff;
+    bottom: 0;
+}
+.InformationActivite h2{
+    margin: 18px 4px 4px 15px;
+    font-size: 0.7em;
+    text-decoration: none ;
+}
+.ActiviteColumn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+.BaseActivite2{
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 235px;
+    overflow: hidden;
+     border-radius: 20px;
+    box-shadow: 4px 4px 15px #22201fa2;
+}
+.BaseActivite3{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px #22201fa2;
+}
+.BaseActivite4{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px #22201fa2;
+}
+.BaseActivite1:hover{
+    border: 4px solid #0065FC; 
+}
+.BaseActivite2:hover{
+    border: 4px solid #0065FC; 
+}
+.BaseActivite3:hover{
+    border: 4px solid #0065FC; 
+}
+.BaseActivite4:hover{
+    border: 4px solid #0065FC; 
 }
 
