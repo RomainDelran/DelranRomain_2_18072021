@@ -26,7 +26,19 @@ a {
 a:visited {
      color: rgb(0, 0, 0);
 }
+.EtoileBleu{
+    color: #0065FC;
+    font-size: 0.7em;
+    margin-right: 1px;
+}
 
+.EtoileGrise{
+    color: #c5c5c5;
+    font-size: 0.7em;
+}
+.IconeBleu{
+    color: #0065FC;
+}
 
 body {
 	font-family: 'Raleway', Arial, serif;
@@ -63,6 +75,7 @@ nav{
 }
 
 #Inscription a{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 0.6em;
     color: #0065FC;
     text-decoration: none; 
@@ -70,6 +83,7 @@ nav{
 }
 
 #Accroche {
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
 }
 
@@ -89,6 +103,8 @@ nav{
 }
 
 #PositionTexte {
+    font-family: 'Raleway-Bold', Arial, serif;
+    font-size: 1em;
     padding: 10px;
     text-decoration: none;
     border: 4px 0 20px ;
@@ -97,8 +113,10 @@ nav{
 
 
 #PositionRechercher{
+    font-family: 'Raleway-Bold', Arial, serif;
+    font-size: 1em;
     background-color:  #0065FC;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     border-radius:0px 10px 10px 0px;
     color: #ffffff;
     text-decoration: none;
@@ -111,6 +129,7 @@ nav{
 }
 
 #FiltreFiltre{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
     padding:  15PX;
 }
@@ -119,7 +138,7 @@ nav{
 .Filtres a{
     display: flex;
     height: 30px;
-    margin: 20px;
+    margin: 20px 10px 20px 10px;
     align-items :center;
     border-radius:20px 20px 20px 20px;
     border: 2px solid #F2F2F2;  
@@ -130,7 +149,7 @@ nav{
   .Filtres a:hover{
     display: flex;
     height: 30px;
-    margin: 20px;
+    margin: 20px 10px 20px 10px;
     align-items :center;
     border-radius:20px 20px 20px 20px;
     border: 2px solid #F2F2F2;  
@@ -145,9 +164,10 @@ nav{
     background-color:  #DEEBFF; 
   }
   #TexteEconomique{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
-    padding: 0px 0px 0PX 10px;
+    padding: 0px 10px 0PX 10px;
   }
 
   #FiltreFamilial{
@@ -157,9 +177,10 @@ nav{
     background-color:  #DEEBFF;
   }
   #TexteFamilial{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
-    padding: 0px 0px 0PX 10px;
+    padding: 0px 10px 0PX 10px;
   }
 
   #FiltreRomantique{
@@ -169,9 +190,10 @@ nav{
     background-color:  #DEEBFF; 
   }
   #TexteRomantique{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
-    padding: 0px 0px 0PX 10px;
+    padding: 0px 10px 0PX 10px;
   }
 
   #FiltreAnimauxAutorises{
@@ -181,9 +203,10 @@ nav{
     background-color:  #DEEBFF; 
   }
   #TexteAnimauxAutorises{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1em;
     border-radius:20px 20px 20px 20px;
-    padding: 0px 0px 0PX 10px;
+    padding: 0px 10px 0PX 10px;
   }
 
  #Info{
@@ -201,35 +224,68 @@ nav{
 /* Footer */
 
 footer{
+    max-width: 1460px;
+    min-width: 750px;
+    height: 200px;
+    margin: auto;
     display: flex;
     background-color:#F2F2F2  ;
-    justify-content: space-around;  
+    justify-content: space-between;  
 }
-
-
-
-
+.FooterParagraphe{
+    margin-left: 5%;
+}
 .TitreFooter{
-    font-size: 1em;
+    margin-top: 35px ;
+    font-family: 'Raleway-Bold', Arial, serif;
+    font-size: 1.2em;
 }
-
 ul {
     list-style:none;
     margin-left:0;
     padding-left:0;
     }
+li {
+    line-height: 2em;
+}
 
 
 
 /* Section */
+#AubergeCannebiere{
+    right: 40px;
+    bottom: 30px;
+}
+#HotelDuPort{
+    bottom: 40px;
+}
+#HotelLesMouettes{
+    height: 180px;
+    right: 30px;
+    bottom: 20px;
+}
+#HotelDeLaMer{
+    bottom: 20px;
+}
+#AubergeLePanier{
+    height: 180px;
+    right: 30px;
+    bottom: 20px;
+}
+#HotelChezAmina{
+    height: 350px;
+    bottom: 110px;
+}
+
+
+
+
 
 #ContainerHebergementEtPopulaires{
     display: flex;
     justify-content: space-between;
 
 }
-
-
 
 #Hebergement{
     width: 65.67%;
@@ -239,6 +295,7 @@ ul {
 }
 
 #Hebergement h1{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1.3em;
     padding: 20px 0px 0px 30px;
 }
@@ -281,12 +338,13 @@ ul {
     bottom: 0px;
 }
 .InformationHebergement h2 {
-    margin: 4px;
-    font-size: 0.7em;
+    font-family: 'Raleway-Bold', Arial, serif;
+    margin:  8px 4px 4px 4px;
+    font-size: 0.9em;
 }
 .InformationHebergement p {
     margin: 4px;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 .EtoilesHebergement {
     display: flex;
@@ -294,8 +352,9 @@ ul {
 }
 
 #AfficherPlusHebergement {
-    font-size: 0.95em;
-    margin: 60px 0px 30px 30px;
+    font-family: 'Raleway-Bold', Arial, serif;
+    font-size: 1em;
+    margin: 0px 0px 30px 30px;
     position: relative;
     bottom: 0px;
 }
@@ -305,6 +364,14 @@ ul {
 
 
 
+
+
+
+
+#HotelToutBleuEtBlanc{
+    height: 280px;
+    bottom: 50px;
+}
 
 
 #Populaires {
@@ -318,8 +385,13 @@ ul {
     justify-content: space-between;
 }
 #PopulaireTitreEtIcone h1{
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1.3em;
     padding: 20px 0px 0px 30px;
+}
+.IconeNoir{
+    font-size: 1.3em;
+    color: #000000;
 }
 
 #IconeGraphique{    
@@ -347,7 +419,7 @@ ul {
     display: flex;
     margin: 4px 4px 4px 15px;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
 
 }
 .BasePoupulaire{
@@ -365,19 +437,45 @@ ul {
     border: 4px solid #0065FC;
 }
 .InformationPopulaire h2 {
-    margin: 4px 4px 4px 15px;
-    font-size: 0.7em;
+    font-family: 'Raleway-Bold', Arial, serif;
+    margin: 24px 4px 4px 15px;
+    font-size: 0.9em;
     text-decoration: none ;
 }
 .InformationPopulaire p {
     margin: 4px 4px 4px 15px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-decoration: none ;
 }
 
 
 
+
+
+
+
+#FortDePomegues{
+    bottom: 150px;
+}
+#IleDuFrioul{
+    bottom: 140px;
+    right: 200px;
+}
+#ParcNationalDesCalanques{
+    right: 100px;
+}
+#NotreDameDeLaGarde{
+    bottom: 50px;
+    right: 120px;
+}
+#ParcLongchamp{
+    bottom: 85px;
+    right: 100px;
+}
+
+
 #Activites h1 {
+    font-family: 'Raleway-Bold', Arial, serif;
     font-size: 1.4em;
     text-decoration: none ;
     margin-top: 30px;
@@ -408,8 +506,9 @@ ul {
     bottom: 0;
 }
 .InformationActivite h2{
+    font-family: 'Raleway-Bold', Arial, serif;
     margin: 18px 4px 4px 15px;
-    font-size: 0.7em;
+    font-size: 1em;
     text-decoration: none ;
 }
 .ActiviteColumn{
@@ -445,16 +544,5 @@ ul {
     border-radius: 20px;
     box-shadow: 4px 4px 15px #22201fa2;
 }
-.BaseActivite1:hover{
-    border: 4px solid #0065FC; 
-}
-.BaseActivite2:hover{
-    border: 4px solid #0065FC; 
-}
-.BaseActivite3:hover{
-    border: 4px solid #0065FC; 
-}
-.BaseActivite4:hover{
-    border: 4px solid #0065FC; 
-}
+
 
