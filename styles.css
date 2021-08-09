@@ -22,7 +22,7 @@
 @media (min-width: 576px){
 
     body {
-        margin: 0em ;
+        margin:0.15em 0em 0em 0em ;
         padding: 0em;
     }
 
@@ -34,589 +34,600 @@
     }
 
 
-#HautHeaderMobil{
-    display: none;
-}
-
-
-#InscriptionMobil{
-    display: none;
-}
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-a:visited {
-     color: rgb(0, 0, 0);
-}
-.EtoileBleu{
-    color: #0065FC;
-    font-size: 0.7em;
-    margin-right: 0.063em;
-}
-
-.EtoileGrise{
-    color: #c5c5c5;
-    font-size: 0.7em;
-    margin-right: 0.063em;
-}
-.IconeBleu{
-    color: #0065FC;
-}
-
-body {
-	font-family: 'Raleway', Arial, serif;
-}
-
-#HautHeader{
-    display: flex;
-    justify-content: space-between;
-}
-
-nav{
-    display: flex;
-}
-
-
-.Menu a{
-    font-size: 0.6em;
-    color: #000000;
-    text-decoration: none; 
-    padding: 1.875em 1.875em 1.875em 1.875em;
-}
-
-.Menu a:hover
-{
-    color: #0065FC;
-    border-top: 0.125em solid #0065FC;
-}
-
-#Inscription a{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 0.6em;
-    color: #0065FC;
-    text-decoration: none; 
-    padding: 1.875em 1.875em 1.875em 1.875em;
-}
-
-#Accroche {
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1.2em;
-}
-
-.Petit {
-    
-    font-size: 0.8em;
-}
-
-#EssemblePosition{
-    display: flex;
-    
-}
-
-
-#Position {
-    background-color:  #F2F2F2;
-    padding: 0.938em;
-    border-radius:0.625em 0em 0em 0.625em;
-}
-
-#PositionTexte {
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    padding: 0.625em;
-    text-decoration: none;
-    border: 0.25em 0 1.25em ;
-    box-sizing: border-box;
-}
-
-
-#PositionRechercher{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    background-color:  #0065FC;
-    padding: 0.625em 1.25em 0.625em 1.25em;
-    border-radius:0 0.625em 0.625em 0;
-    color: #ffffff;
-    text-decoration: none;
-    border:0 ;
-    cursor: pointer;
-}
-
-#LoupeRechercher{
-    display: none;
-}
-
-
-
-
-#LigneFiltre{
-    display: flex;
-
-}
-
-#FiltreFiltre{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    padding:  0.938em;
-}
-
-
-.Filtres a{
-    display: flex;
-    height: 1.875em;
-    margin: 1.25em 0.625em 1.25em 0.625em;
-    align-items :center;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    border: 0.125em solid #F2F2F2;  
-    padding: 0.325em 0.375em 0.325em 0;
-  }
-
-  
-  .Filtres a:hover{
-    display: flex;
-    height: 1.875em;
-    margin: 1.25em 0.625em 1.25em 0.625em;
-    align-items :center;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    border: 0.125em solid #F2F2F2;  
-    padding: 0.325em 0.375em 0.325em 0;
-    background-color: #0065FC;
-  }
-  
-  #FiltreEconomique{
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-    margin: 0em ;
-    background-color:  #DEEBFF; 
-  }
-  #TexteEconomique{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0 0.625em 0 0.625em;
-  }
-
-  #FiltreFamilial{
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-    margin: 0em ;
-    background-color:  #DEEBFF;
-  }
-  #TexteFamilial{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-  }
-
-  #FiltreRomantique{
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-    margin: 0em ;
-    background-color:  #DEEBFF; 
-  }
-  #TexteRomantique{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0em 0.625em 0em 0.625em;
-  }
-
-  #FiltreAnimauxAutorises{
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-    margin: 0em ;
-    background-color:  #DEEBFF; 
-  }
-  #TexteAnimauxAutorises{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.825em 0.825em 0.825em 0.825em;
-  }
-
- #Info{
-    font-size: 0.7em;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    padding: 0.313em 0.438em 0.313em 0.438em;
-    margin: 0.438em 0.438em 0em 0em ;
-    border: 0.125em solid #F2F2F2; 
- }
- #LigneInfo{
-    display: flex;
- }
-
-
-/* Footer */
-
-footer{
-    max-width: 91.25em;
-    min-width: 46.875em;
-    height: 12.5em;
-    margin: auto;
-    display: flex;
-    background-color:#F2F2F2  ;
-    justify-content: space-between;  
-}
-.FooterParagraphe{
-    margin-left: 5%;
-}
-.TitreFooter{
-    margin-top: 2.188em ;
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1.2em;
-}
-ul {
-    list-style:none;
-    margin-left:0;
-    padding-left:0;
+    #HautHeaderMobil{
+        display: none;
     }
-li {
-    line-height: 2em;
-}
+
+
+    #InscriptionMobil{
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    a:visited {
+        color: rgb(0, 0, 0);
+    }
+    .EtoileBleu{
+        color: #0065FC;
+        font-size: 0.7em;
+        margin-right: 0.063em;
+    }
+
+    .EtoileGrise{
+        color: #c5c5c5;
+        font-size: 0.7em;
+        margin-right: 0.063em;
+    }
+    .IconeBleu{
+        color: #0065FC;
+    }
+
+    body {
+        font-family: 'Raleway', Arial, serif;
+    }
+
+    #HautHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+        display: flex;
+    }
+
+
+    .Menu a{
+        margin-top: 1em;
+        font-size: 0.6em;
+        color: #000000;
+        text-decoration: none; 
+        padding: 1.875em 1.875em 1.875em 1.875em;
+    }
+
+    .Menu a:hover{
+        margin-top: 1em;
+        color: #0065FC;
+        border-top: 0.25em solid #0065FC;
+    }
+
+    #Inscription a{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 0.6em;
+        color: #0065FC;
+        text-decoration: none; 
+        padding: 1.875em 1.875em 1.875em 1.875em;
+    }
+
+    #Accroche {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1.2em;
+        margin-bottom: 0.4em;
+    }
+
+    .Petit {
+        
+        font-size: 0.8em;
+    }
+    #PetitPremier{
+        line-height: normal;
+        margin-bottom: 1.6em;
+    }
+
+
+    #EssemblePosition{
+        display: flex;
+        
+    }
+
+
+    #Position {
+        background-color:  #F2F2F2;
+        padding: 0.938em;
+        border-radius:0.625em 0em 0em 0.625em;
+    }
+
+    #PositionTexte {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        padding: 0.625em;
+        text-decoration: none;
+        border: 0.25em 0 1.25em ;
+        box-sizing: border-box;
+    }
+
+
+    #PositionRechercher{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        background-color:  #0065FC;
+        padding: 0.625em 1.25em 0.625em 1.25em;
+        border-radius:0 0.625em 0.625em 0;
+        color: #ffffff;
+        text-decoration: none;
+        border:0 ;
+        cursor: pointer;
+    }
+
+    #LoupeRechercher{
+        display: none;
+    }
 
 
 
-/* Section */
 
-#AubergeCannebiere{
-width:  100%;
-}
-#HotelDuPort{
-    width: 100%;
-}
-#HotelLesMouettes{
-    width:  100%;
-}
-#HotelDeLaMer{
-    width:  100%;
-    bottom: 5em;
-}
-#AubergeLePanier{
-    width:  100%;
-}
-#HotelChezAmina{
-    width:  100%;
-    bottom: 7em;
-}
+    #LigneFiltre{
+        display: flex;
+
+    }
+
+    #FiltreFiltre{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        padding:  0.938em;
+    }
 
 
+    .Filtres a{
+        display: flex;
+        height: 1.875em;
+        margin: 1.25em 0.625em 1.25em 0.625em;
+        align-items :center;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        border: 0.125em solid #F2F2F2;  
+        padding: 0.325em 0.375em 0.325em 0;
+    }
 
-#ContainerHebergementEtPopulaires{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#Hebergement{
-
-    width: 65.67%;
-    background-color: #F2F2F2;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    position: relative;
-    padding: 1em;
-    margin-right: 2em ;
     
-
-}
-
-#Hebergement h1{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1.5em;
-    padding: 1.25em 0em 0em 1.875em;
-    margin: 0em;
-}
-
-.LigneHebergement{
-    display: flex;
-    margin-top: 1em;
-    position:relative;
-    flex-wrap: wrap;
-}
-
-.CadreImage {
-    height: 7em ;
-    object-fit: cover;
-    z-index: 0;
-    overflow: hidden;
-}
-
-.BaseHebergement {
-    position: relative;
-    margin:  0% 2%  0 2% ;
-    width: 14em;
-    height: 12em;
-    overflow: hidden;
-    border: 0.25em solid #ffffff; 
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-    border-radius: 1.25em;
-    display: flex;
-    margin:  1em auto ;
-    background-color: #ffffff;
-}
-.BaseHebergement:hover{
-    border: 0.25em solid  #0065FC; 
-}
-.ImageHebergement{
-    z-index: 1;
-    position: relative;
-}
-.InformationHebergement {
-  padding: 0.3em;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 2;
-
-}
-.InformationHebergement h2 {
-    font-family: 'Raleway-Bold', Arial, serif;
-    margin:  0.5em 0.25em 0.25em 0.25em;
-    font-size: 0.em;
-}
-.InformationHebergement p {
-    margin: 0.25em;
-    font-size: 0.8em;
-}
-.EtoilesHebergement {
-    display: flex;
-    margin: 0.25em;
-}
-
-#AfficherPlusHebergement {
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1em;
-    margin: 3em 0em 3em 1.875em;
-    position: relative;
-    bottom: 0em;
-}
-
-
-
-
-
-#HotelToutBleuEtBlanc{
-width: 100%;
-}
-
-
-#Populaires {
-    width: 31.34%;
-    background-color: #F2F2F2;
-    border-radius:1.25em 1.25em 1.25em 1.25em;
-    position: relative;
-}
-#PopulaireTitreEtIcone{
-    display: flex;  
-    justify-content: space-between;
-}
-#PopulaireTitreEtIcone h1{
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1.3em;
-    padding: 1.25em 0em 0em 1.875em;
-}
-.IconeNoir{
-    font-size: 1.3em;
-    color: #000000;
-}
-
-#IconeGraphique{    
-    margin-top: 2.5em;
-    margin-right: 2.5em;   
-}
-
-
-.BasePopulaire a{
-    display: flex ;
-}
-
-.CadrePopulaire{
-    height: 9.063em;
-    width: 10em;
-    object-fit: cover;
-    z-index: 0;
-    overflow: hidden;
-}
-
-.ImagePopulaire{
-    height: 100%;
-    z-index: 1;
-    object-fit: cover;
-}
-
-.InformationPopulaire{
-    z-index: 2;
-    width: 50%;
-    height: 9.063em;
-}
-.EtoilesPopulaire {
-    display: flex;
-    margin: 2.75em 0.25em 0.25em 0.738em;
-    bottom: 0em;
-}
-.BasePopulaire{
-    position: relative;
-    margin:  0 auto;
-    border: 0.25em solid #ffffff;
-    border-radius: 1.25em;
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-    overflow: hidden;    
-    height: 9.063em;
-    width: 85%;
-    margin-top: 1.875em;
-    background-color: #ffffff;
-}
-
-
-.BasePopulaire:hover{
-    border: 0.25em solid #0065FC;
-}
-.InformationPopulaire h2 {
-    font-family: 'Raleway-Bold', Arial, serif;
-    margin: 1.5em 0.25em 0.25em 0.938em;
-    font-size: 0.9em;
-    text-decoration: none ;
-}
-.InformationPopulaire p {
-    margin: 0.25em 0.25em 0.25em 0.938em;
-    font-size: 0.8em;
-    text-decoration: none ;
-}
-
-
-
-#FortDePomegues{
-    position: relative;
-    width: 100%;
-    height: auto;
-    bottom: 5em;
-    left: 0em;
-}
-#IleDuFrioul{
-    position: relative;
-    bottom: 8.75em;
-    right: 12.5em;
-}
-
-#ParcNationalDesCalanques{
-    position: relative;
-    right: 6.25em;
-}
-
-#NotreDameDeLaGarde{
-    position: relative;
-    bottom: 3.125em;
-    right: 7.5em;
-}
-#ParcLongchamp{
-    position: relative;
-    bottom: 5.313em;
-    right: 6.25em;
-}
-
-
-#Activites h1 {
-    font-family: 'Raleway-Bold', Arial, serif;
-    font-size: 1.4em;
-    text-decoration: none ;
-    margin-top: 1.875em;
-}
-#LigneActivite{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-.BaseActivite1{
-    position: relative;
-    width: 22%;
-    height: 27.5em;
-    overflow: hidden;
-     border-radius: 1.25em;
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-}
-
-
-.CadreActivite1 {
-    height: 24em;
-    width: auto;
-    overflow: hidden;
+    .Filtres a:hover{
+        display: flex;
+        height: 1.875em;
+        margin: 1.25em 0.625em 1.25em 0.625em;
+        align-items :center;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        border: 0.125em solid #F2F2F2;  
+        padding: 0.325em 0.375em 0.325em 0;
+        background-color: #0065FC;
+    }
     
+    #FiltreEconomique{
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+        margin: 0em ;
+        background-color:  #DEEBFF; 
+    }
+    #TexteEconomique{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0 0.625em 0 0.625em;
+    }
+
+    #FiltreFamilial{
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+        margin: 0em ;
+        background-color:  #DEEBFF;
+    }
+    #TexteFamilial{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+    }
+
+    #FiltreRomantique{
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+        margin: 0em ;
+        background-color:  #DEEBFF; 
+    }
+    #TexteRomantique{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0em 0.625em 0em 0.625em;
+    }
+
+    #FiltreAnimauxAutorises{
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+        margin: 0em ;
+        background-color:  #DEEBFF; 
+    }
+    #TexteAnimauxAutorises{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+    }
+
+    #Info{
+        font-size: 0.7em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.313em 0.438em 0.313em 0.438em;
+        margin: 0.438em 0.438em 0em 0em ;
+        border: 0.125em solid #F2F2F2; 
+    }
+    #LigneInfo{
+        display: flex;
+    }
+
+
+    /* Footer */
+
+    footer{
+        max-width: 91.25em;
+        min-width: 46.875em;
+        height: 12.5em;
+        margin: auto;
+        display: flex;
+        background-color:#F2F2F2  ;
+        justify-content: space-between;  
+    }
+    .FooterParagraphe{
+        margin-left: 5%;
+    }
+    .TitreFooter{
+        margin-top: 2.188em ;
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1.2em;
+    }
+    ul {
+        list-style:none;
+        margin-left:0;
+        padding-left:0;
+        }
+    li {
+        line-height: 2em;
+    }
+
+
+
+    /* Section */
+
+    #AubergeCannebiere{
+    width:  100%;
+    }
+    #HotelDuPort{
+        width: 100%;
+    }
+    #HotelLesMouettes{
+        width:  100%;
+    }
+    #HotelDeLaMer{
+        width:  100%;
+        bottom: 5em;
+    }
+    #AubergeLePanier{
+        width:  100%;
+    }
+    #HotelChezAmina{
+        width:  100%;
+        bottom: 7em;
+    }
+
+
+
+    #ContainerHebergementEtPopulaires{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #Hebergement{
+
+        width: 65.67%;
+        background-color: #F2F2F2;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        position: relative;
+        padding: 1em;
+        margin-right: 2em ;
+        
+
+    }
+
+    #Hebergement h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1.3em;
+        padding: 1.25em 0em 0em 1.275em;
+        margin: 0em;
+    }
+
+    .LigneHebergement{
+        display: flex;
+        margin-top: 1em;
+        position:relative;
+        flex-wrap: wrap;
+    }
+
+    .CadreImage {
+        height: 7em ;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .BaseHebergement {
+        position: relative;
+        margin:  0% 2%  0 2% ;
+        width: 14em;
+        height: 12em;
+        overflow: hidden;
+        border: 0.25em solid #ffffff; 
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+        border-radius: 1.25em;
+        display: flex;
+        margin:  1em auto ;
+        background-color: #ffffff;
+    }
+    .BaseHebergement:hover{
+        border: 0.25em solid  #0065FC; 
+    }
+    .ImageHebergement{
+        z-index: 1;
+        position: relative;
+    }
+    .InformationHebergement {
+        padding: 0.3em;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 2;
+    }
+    .InformationHebergement h3 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        margin:  0.25em 0.25em 0.25em 0.25em;
+        font-size: 0.9em;
+    }
+
+    section h2{
+        font-family: 'Raleway-Bold', Arial, serif;
 }
 
-.ImageActivite{
-    height: 24em;
-    object-fit: contain;
-    z-index: 1;
+    .InformationHebergement p {
+        margin: 0.25em;
+        font-size: 0.8em;
+    }
+    .EtoilesHebergement {
+        display: flex;
+        margin: 0.25em;
+    }
 
-}
-.InformationActivite{
-    position: relative;
-    height: 3.75em;
+    #AfficherPlusHebergement {
+        font-family: 'Raleway', Arial, serif;
+        font-size: 1em;
+        margin: 2em 0em 2em 1.875em;
+        position: relative;
+        bottom: 0em;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #HotelToutBleuEtBlanc{
     width: 100%;
-    z-index: 2;
-    background-color: #ffffff;
-    bottom: 0;
-}
-.InformationActivite h2{
-    font-family: 'Raleway-Bold', Arial, serif;
-    margin: 1.125em 0.25em 0.25em 0.938em;
-    font-size: 1em;
-    text-decoration: none ;
-}
-.ActiviteColumn{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-}
-.BaseActivite2{
-    position: relative;
-    margin-bottom: 2.5em;
-    width: 100%;
-    height: 14.688em;
-    overflow: hidden;
-     border-radius: 1.25em;
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-}
-.CadreActivite2 {
-    height:11em;
-    width: auto;
-    overflow: hidden;
-}
-.BaseActivite3{
-    position: relative;
-    margin-bottom: 1.25em;
-    width: 100%;
-    height: 10.313em;
-    overflow: hidden;
-    border-radius: 1.25em;
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-}
-.CadreActivite3 {
-    height: 7em;
-    width: auto;
-    overflow: hidden;
-    
-}
+    }
 
-.BaseActivite4{
-    position: relative;
-    margin-bottom: 1.25em;
-    width: 100%;
-    height: 13.125em;
-    overflow: hidden;
-    border-radius: 1.25em;
-    box-shadow: 0.25em 0.25em 0.938em #22201fa2;
-}
-.CadreActivite4 {
-    height: 10em;
-    width: auto;
-    overflow: hidden;
-    
-}
 
-} 
+    #Populaires {
+        width: 31.34%;
+        background-color: #F2F2F2;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        position: relative;
+    }
+    #PopulaireTitreEtIcone{
+        display: flex;  
+        justify-content: space-between;
+    }
+    #PopulaireTitreEtIcone h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1.3em;
+        padding: 1.25em 0em 0em 1.875em;
+    }
+    .IconeNoir{
+        font-size: 1.3em;
+        color: #000000;
+    }
 
+    #IconeGraphique{    
+        margin-top: 2.5em;
+        margin-right: 2.5em;   
+    }
+
+
+    .BasePopulaire a{
+        display: flex ;
+    }
+
+    .CadrePopulaire{
+        height: 9.063em;
+        width: 10em;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .ImagePopulaire{
+        height: 100%;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .InformationPopulaire{
+        z-index: 2;
+        width: 50%;
+        height: 9.063em;
+    }
+    .EtoilesPopulaire {
+        display: flex;
+        margin: 2.75em 0.25em 0.25em 0.738em;
+        bottom: 0em;
+    }
+    .BasePopulaire{
+        position: relative;
+        margin:  0 auto;
+        border: 0.25em solid #ffffff;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+        overflow: hidden;    
+        height: 9.063em;
+        width: 85%;
+        margin-top: 1.875em;
+        background-color: #ffffff;
+    }
+
+
+    .BasePopulaire:hover{
+        border: 0.25em solid #0065FC;
+    }
+    .InformationPopulaire h2 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        margin: 1.5em 0.25em 0.25em 0.938em;
+        font-size: 0.9em;
+        text-decoration: none ;
+    }
+    .InformationPopulaire p {
+        margin: 0.25em 0.25em 0.25em 0.938em;
+        font-size: 0.8em;
+        text-decoration: none ;
+    }
+
+
+
+    #FortDePomegues{
+        position: relative;
+        width: 100%;
+        height: auto;
+        bottom: 5em;
+        left: 0em;
+    }
+    #IleDuFrioul{
+        position: relative;
+        bottom: 8.75em;
+        right: 12.5em;
+    }
+
+    #ParcNationalDesCalanques{
+        position: relative;
+        right: 6.25em;
+    }
+
+    #NotreDameDeLaGarde{
+        position: relative;
+        bottom: 3.125em;
+        right: 7.5em;
+    }
+    #ParcLongchamp{
+        position: relative;
+        bottom: 5.313em;
+        right: 6.25em;
+    }
+
+
+    #Activites h1 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-size: 1.4em;
+        text-decoration: none ;
+        margin-top: 1.875em;
+    }
+    #LigneActivite{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    .BaseActivite1{
+        position: relative;
+        width: 22%;
+        height: 27.5em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+
+
+    .CadreActivite1 {
+        height: 24em;
+        width: auto;
+        overflow: hidden;
+        
+    }
+
+    .ImageActivite{
+        height: 24em;
+        object-fit: contain;
+        z-index: 1;
+
+    }
+    .InformationActivite{
+        position: relative;
+        height: 3.75em;
+        width: 100%;
+        z-index: 2;
+        background-color: #ffffff;
+        bottom: 0;
+    }
+    .InformationActivite h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        margin: 1.125em 0.25em 0.25em 0.938em;
+        font-size: 1em;
+        text-decoration: none ;
+    }
+    .ActiviteColumn{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+    }
+    .BaseActivite2{
+        position: relative;
+        margin-bottom: 2.5em;
+        width: 100%;
+        height: 14.688em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite2 {
+        height:11em;
+        width: auto;
+        overflow: hidden;
+    }
+    .BaseActivite3{
+        position: relative;
+        margin-bottom: 1.25em;
+        width: 100%;
+        height: 10.313em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite3 {
+        height: 7em;
+        width: auto;
+        overflow: hidden;
+        
+    }
+
+    .BaseActivite4{
+        position: relative;
+        margin-bottom: 1.25em;
+        width: 100%;
+        height: 13.125em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite4 {
+        height: 10em;
+        width: auto;
+        overflow: hidden;
+        
+    }   
+  
+}
 
 
 
@@ -1169,7 +1180,7 @@ width: 100%;
         position: relative;
     }
     .InformationActivite{
-        position: relati;
+        position: relative;
         height: 3.75em;
         width: 100%;
         z-index: 2;
@@ -1220,6 +1231,9 @@ width: 100%;
         box-shadow: 0.25em 0.25em 0.938em #22201fa2;
     }
 }
+
+
+
 
 
 
