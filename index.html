@@ -31,69 +31,71 @@
                 </nav>
             </div>
 
-            <h2 id="Accroche">Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p id="PetitPremier" class="Petit">En plein centre ville ou en pleine nature</p>
+            <div id="CadreMobile">
+                <h2 id="Accroche">Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p id="PetitPremier" class="Petit">En plein centre ville ou en pleine nature</p>
 
 
-            <form method="post" action="traitement.php">
-                <div id="EssemblePosition">
-                    <i id="Position" class="fas fa-map-marker-alt"></i>
-                    <input id="PositionTexte" type="text" name="Localisation" placeholder="Marseille, France" size="20" maxlength="0" />
-                    <input id="PositionRechercher" type="submit" value="Rechercher" />
-                    <i id="LoupeRechercher" class="fas fa-search"></i>
-                </div>
-            </form>
+                <form method="post" action="traitement.php">
+                    <div id="EssemblePosition">
+                        <i id="Position" class="fas fa-map-marker-alt"></i>
+                        <input id="PositionTexte" type="text" name="Localisation" placeholder="Marseille, France" size="20" maxlength="0" />
+                        <input id="PositionRechercher" type="submit" value="Rechercher" />
+                        <i id="LoupeRechercher" class="fas fa-search"></i>
+                    </div>
+                </form>
 
 
-            
                 
-              
+                    
+                
 
-            <div id="LigneFiltre">
-                <h2 id="FiltreFiltre">Filtres</h2>
-                <div class="Filtres">
-                    <a href="#">
-                        <span class="IconeBleu">
-                            <i id="FiltreEconomique" class="fas fa-money-bill-wave"></i>
-                        </span>
-                        <h2 id="TexteEconomique">Economique</h2>
-                    </a>
-                </div>
+                <div id="LigneFiltre">
+                    <h2 id="FiltreFiltre">Filtres</h2>
+                    <div class="Filtres">
+                        <a href="#">
+                            <span class="IconeBleu">
+                                <i id="FiltreEconomique" class="fas fa-money-bill-wave"></i>
+                            </span>
+                            <h2 id="TexteEconomique">Economique</h2>
+                        </a>
+                    </div>
 
-                <div   class="Filtres">
-                    <a href="#">
-                        <span class="IconeBleu">
-                            <i id="FiltreFamilial" class="fas fa-child"></i>
-                        </span>
-                        <h2 id="TexteFamilial">Familial</h2>
-                    </a>
+                    <div   class="Filtres">
+                        <a href="#">
+                            <span class="IconeBleu">
+                                <i id="FiltreFamilial" class="fas fa-child"></i>
+                            </span>
+                            <h2 id="TexteFamilial">Familial</h2>
+                        </a>
+                    </div>
+                    <div class="Filtres">
+                        <a href="#">
+                            <span class="IconeBleu">
+                                <i id="FiltreRomantique" class="fas fa-heart"></i>
+                            </span>
+                            <h2 id="TexteRomantique" >Romantique</h2>
+                        </a>
+                    </div>
+                    <div class="Filtres">
+                        <a href="#">
+                            <span class="IconeBleu">
+                                <i id="FiltreAnimauxAutorises" class="fas fa-dog"></i>
+                            </span>
+                            <h2 id="TexteAnimauxAutorises">Animaux autorisés</h2>
+                        </a>
+                    </div>
                 </div>
-                <div class="Filtres">
-                    <a href="#">
-                        <span class="IconeBleu">
-                            <i id="FiltreRomantique" class="fas fa-heart"></i>
-                        </span>
-                        <h2 id="TexteRomantique" >Romantique</h2>
-                    </a>
-                </div>
-                <div class="Filtres">
-                    <a href="#">
-                        <span class="IconeBleu">
-                            <i id="FiltreAnimauxAutorises" class="fas fa-dog"></i>
-                        </span>
-                        <h2 id="TexteAnimauxAutorises">Animaux autorisés</h2>
-                    </a>
-                </div>
+                <div id="LigneInfo">
+                    <span class="IconeBleu">
+                        <i id="Info" class="fas fa-info"></i>
+                    </span>
+                    <p class="Petit">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>    
+                <p id="RetourALaLigneHeaderFin"></p>
             </div>
-            <div id="LigneInfo">
-                <span class="IconeBleu">
-                    <i id="Info" class="fas fa-info"></i>
-                </span>
-                <p class="Petit">Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>    
-            <p id="RetourALaLigneHeaderFin"></p>
         </header>
-
+        
 
 
         <div id="ContainerHebergementEtPopulaires">
@@ -385,7 +387,7 @@
                             <img class="ImageActivite" id="VieuxPort" src="Images/activites/VieuxPort_petit.jpg" alt="Photo Vieux Port" />
                         </div>
                         <div class="InformationActivite">
-                            <h2>Vieux port</h2>
+                            <h3>Vieux port</h3>
                         </div>
                     </a>
                 </div>
@@ -398,7 +400,7 @@
                                 <img class="ImageActivite" id="FortDePomegues" src="Images/activites/FortDePomegues_petit.jpg" alt="Photo Fort De Pomegues" />
                             </div>
                             <div class="InformationActivite">
-                                <h2>Fort De Pomegues</h2>
+                                <h3>Fort De Pomegues</h3>
                             </div>
                         </a>
                     </div>
@@ -408,7 +410,7 @@
                                 <img class="ImageActivite" id="IleDuFrioul" src="Images/activites/IleDuFrioul_petit.jpg" alt="Photo Ile Du Frioul"  />
                             </div>
                             <div class="InformationActivite">
-                                <h2>Ile Du Frioul</h2>
+                                <h3>Ile Du Frioul</h3>
                             </div>
                         </a>
                     </div>
@@ -420,7 +422,7 @@
                             <img class="ImageActivite" id="ParcNationalDesCalanques" src="Images/activites/ParcNationalDesCalanques_petit.jpg" alt="Photo Parc National Des Calanques"  />
                         </div>
                         <div class="InformationActivite">
-                            <h2>Parc National Des Calanques</h2>
+                            <h3>Parc National Des Calanques</h3>
                         </div>
                     </a>
                 </div>
@@ -433,7 +435,7 @@
                                 <img class="ImageActivite" id="NotreDameDeLaGarde" src="Images/activites/NotreDameDeLaGarde_petit.jpg" alt="Photo Notre Dame De La Garde"   />
                             </div>
                             <div class="InformationActivite">
-                                <h2>Notre Dame De La Garde</h2>
+                                <h3>Notre Dame De La Garde</h3>
                             </div>
                         </a>
                     </div>
@@ -443,7 +445,7 @@
                                 <img class="ImageActivite" id="ParcLongchamp" src="Images/activites/ParcLongchamp_petit.jpg" alt="Photo Parc Longchamp"  />
                             </div>
                             <div class="InformationActivite">
-                                <h2>Parc Longchamp</h2>
+                                <h3>Parc Longchamp</h3>
                             </div>
                         </a>
                     </div>

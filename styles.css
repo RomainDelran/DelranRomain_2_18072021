@@ -15,16 +15,19 @@
 @font-face{ /* Définition d'une nouvelle police nommée Raleway-Bold*/
     font-family: 'Raleway-Bold';
     src: url('Raleway/static/Raleway-SemiBold.ttf') format('truetype');
-    font-weight: normal;
+    src: url('Raleway/static/raleway-bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }
 
-@media (min-width: 576px){
+@media (min-width: 992px){
 
     body {
         margin:0.15em 0em 0em 0em ;
         padding: 0em;
+        font-family: 'Raleway', Arial, serif;
     }
+ 
 
     #Container{
         width: 80%;
@@ -64,9 +67,7 @@
         color: #0065FC;
     }
 
-    body {
-        font-family: 'Raleway', Arial, serif;
-    }
+
 
     #HautHeader{
         display: flex;
@@ -94,6 +95,7 @@
 
     #Inscription a{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 0.6em;
         color: #0065FC;
         text-decoration: none; 
@@ -102,6 +104,7 @@
 
     #Accroche {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.2em;
         margin-bottom: 0.4em;
     }
@@ -118,7 +121,6 @@
 
     #EssemblePosition{
         display: flex;
-        
     }
 
 
@@ -130,6 +132,7 @@
 
     #PositionTexte {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         padding: 0.625em;
         text-decoration: none;
@@ -140,6 +143,7 @@
 
     #PositionRechercher{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         background-color:  #0065FC;
         padding: 0.625em 1.25em 0.625em 1.25em;
@@ -164,6 +168,7 @@
 
     #FiltreFiltre{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         padding:  0.938em;
     }
@@ -199,6 +204,7 @@
     }
     #TexteEconomique{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0 0.625em 0 0.625em;
@@ -212,6 +218,7 @@
     }
     #TexteFamilial{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0.825em 0.825em 0.825em 0.825em;
@@ -225,6 +232,7 @@
     }
     #TexteRomantique{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0em 0.625em 0em 0.625em;
@@ -238,6 +246,7 @@
     }
     #TexteAnimauxAutorises{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0.825em 0.825em 0.825em 0.825em;
@@ -272,6 +281,7 @@
     .TitreFooter{
         margin-top: 2.188em ;
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.2em;
     }
     ul {
@@ -330,6 +340,7 @@
 
     #Hebergement h2{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.3em;
         padding: 1.25em 0em 0em 1.275em;
         margin: 0em;
@@ -344,14 +355,13 @@
 
     .CadreImage {
         height: 7em ;
-        object-fit: cover;
         z-index: 0;
         overflow: hidden;
     }
 
     .BaseHebergement {
         position: relative;
-        margin:  0% 2%  0 2% ;
+        margin:  1em auto;
         width: 14em;
         height: 12em;
         overflow: hidden;
@@ -359,13 +369,14 @@
         box-shadow: 0.25em 0.25em 0.938em #22201fa2;
         border-radius: 1.25em;
         display: flex;
-        margin:  1em auto ;
         background-color: #ffffff;
     }
     .BaseHebergement:hover{
         border: 0.25em solid  #0065FC; 
     }
+
     .ImageHebergement{
+        object-fit: cover;
         z-index: 1;
         position: relative;
     }
@@ -377,12 +388,14 @@
     }
     .InformationHebergement h3 {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         margin:  0.25em 0.25em 0.25em 0.25em;
         font-size: 0.9em;
     }
 
     section h2{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
 }
 
     .InformationHebergement p {
@@ -424,6 +437,7 @@
     }
     #PopulaireTitreEtIcone h2{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.3em;
         padding: 1.25em 0em 0em 1.875em;
     }
@@ -465,6 +479,7 @@
         display: flex;
         margin: 2.75em 0.25em 0.25em 0.738em;
         bottom: 0em;
+        position: absolute;
     }
     .BasePopulaire{
         position: relative;
@@ -485,12 +500,13 @@
     }
     .InformationPopulaire h2 {
         font-family: 'Raleway-Bold', Arial, serif;
-        margin: 1.5em 0.25em 0.25em 0.938em;
+        font-weight: bold;
+        margin: 1em 0.25em 0.25em 0.938em;
         font-size: 0.9em;
         text-decoration: none ;
     }
     .InformationPopulaire p {
-        margin: 0.25em 0.25em 0.25em 0.938em;
+        margin: 0.25em 0.25em 0.25em 0.6em;
         font-size: 0.8em;
         text-decoration: none ;
     }
@@ -500,7 +516,6 @@
     #FortDePomegues{
         position: relative;
         width: 100%;
-        height: auto;
         bottom: 5em;
         left: 0em;
     }
@@ -527,9 +542,10 @@
     }
 
 
-    #Activites h1 {
+    #Activites h2 {
         font-family: 'Raleway-Bold', Arial, serif;
-        font-size: 1.4em;
+        font-weight: bold;
+        font-size: 1.3em;
         text-decoration: none ;
         margin-top: 1.875em;
     }
@@ -559,7 +575,6 @@
         height: 24em;
         object-fit: contain;
         z-index: 1;
-
     }
     .InformationActivite{
         position: relative;
@@ -569,9 +584,10 @@
         background-color: #ffffff;
         bottom: 0;
     }
-    .InformationActivite h2{
+    .InformationActivite h3{
         font-family: 'Raleway-Bold', Arial, serif;
-        margin: 1.125em 0.25em 0.25em 0.938em;
+        font-weight: bold;
+        margin: 0.6em 0.25em 0.25em 0.938em;
         font-size: 1em;
         text-decoration: none ;
     }
@@ -633,7 +649,642 @@
 
 
 
-@media all and (max-width: 575.98px) {
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin:0.15em 0em 0em 0em ;
+        padding: 0em;
+        font-family: 'Raleway', Arial, serif;
+    }
+ 
+
+    #Container{
+        width: 80%;
+  
+        margin: auto;
+    }
+
+
+    #HautHeaderMobil{
+        display: none;
+    }
+
+
+    #InscriptionMobil{
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    a:visited {
+        color: rgb(0, 0, 0);
+    }
+    .EtoileBleu{
+        color: #0065FC;
+        font-size: 0.7em;
+        margin-right: 0.063em;
+    }
+
+    .EtoileGrise{
+        color: #c5c5c5;
+        font-size: 0.7em;
+        margin-right: 0.063em;
+    }
+    .IconeBleu{
+        color: #0065FC;
+    }
+
+
+
+    #HautHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+        display: flex;
+    }
+
+
+    .Menu a{
+        margin-top: 1em;
+        font-size: 0.6em;
+        color: #000000;
+        text-decoration: none; 
+        padding: 1.875em 1.875em 1.875em 1.875em;
+    }
+
+    .Menu a:hover{
+        margin-top: 1em;
+        color: #0065FC;
+        border-top: 0.25em solid #0065FC;
+    }
+
+    #Inscription a{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 0.6em;
+        color: #0065FC;
+        text-decoration: none; 
+        padding: 1.875em 1.875em 1.875em 1.875em;
+    }
+
+    #Accroche {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 0.4em;
+    }
+
+    .Petit {
+        
+        font-size: 0.8em;
+    }
+    #PetitPremier{
+        line-height: normal;
+        margin-bottom: 1.6em;
+    }
+
+
+    #EssemblePosition{
+        display: flex;
+    }
+
+
+    #Position {
+        background-color:  #F2F2F2;
+        padding: 0.938em;
+        border-radius:0.625em 0em 0em 0.625em;
+    }
+
+    #PositionTexte {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 0.625em;
+        text-decoration: none;
+        border: 0.25em 0 1.25em ;
+        box-sizing: border-box;
+    }
+
+
+    #PositionRechercher{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        background-color:  #0065FC;
+        padding: 0.625em 1.25em 0.625em 1.25em;
+        border-radius:0 0.625em 0.625em 0;
+        color: #ffffff;
+        text-decoration: none;
+        border:0 ;
+        cursor: pointer;
+    }
+
+    #LoupeRechercher{
+        display: none;
+    }
+
+
+
+
+    #LigneFiltre{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #FiltreFiltre{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        padding:  0.938em 0.938em 0.313em 0.938em;
+        padding-right: 100%;
+    }
+
+
+    .Filtres a{
+        display: flex;
+        height: 1.875em;
+        margin: 0.625em 0.625em 0.188em 0.625em;
+        align-items :center;
+        border-radius:1.5em ;
+        border: 0.125em solid #F2F2F2;  
+        padding: 0.55em 0.375em 0.55em 0em;
+      }
+
+    
+      .Filtres a:hover{
+        display: flex;
+        height: 1.875em;
+        margin: 0.625em 0.625em 0.188em 0.625em;
+        align-items :center;
+        border-radius:1.5em ;
+        border: 0.125em solid #F2F2F2;  
+        padding: 0.55em 0.375em 0.55em 0em;
+        background-color: #0065FC;
+      }
+    
+      #FiltreEconomique{
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF; 
+      }
+      #TexteEconomique{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0em 0.625em 0em 0.625em;
+      }
+    
+      #FiltreFamilial{
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF; 
+      }
+      #TexteFamilial{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0em 0.625em 0em 0.625em;
+      }
+    
+      #FiltreRomantique{
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF;  
+      }
+      #TexteRomantique{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius:1.25em;
+        padding: 0em 0.625em 0em 0.625em;
+      }
+    
+      #FiltreAnimauxAutorises{
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF; 
+    }
+      #TexteAnimauxAutorises{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+    }
+    
+     #Info{
+        font-size: 0.9em;
+        border-radius:1.25em;
+        padding: 0.313em 0.438em 0.313em 0.438em;
+        margin: 0.8em 0.438em 0em 0em ;
+        border: 2px solid #F2F2F2; 
+     }
+     #LigneInfo{
+         margin-top:1.25em ;
+        display: flex;
+     }
+  
+
+
+    /* Footer */
+
+    footer{
+        max-width: 91.25em;
+        min-width: 46.875em;
+        height: 12.5em;
+        margin: auto;
+        display: flex;
+        background-color:#F2F2F2  ;
+        justify-content: space-between;  
+    }
+    .FooterParagraphe{
+        margin-left: 5%;
+    }
+    .TitreFooter{
+        margin-top: 2.188em ;
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    ul {
+        list-style:none;
+        margin-left:0;
+        padding-left:0;
+        }
+    li {
+        line-height: 2em;
+    }  
+
+/* Section */
+
+#AubergeCannebiere{
+    width:  100%;
+    }
+    #HotelDuPort{
+        width: 100%;
+    }
+    #HotelLesMouettes{
+        width:  100%;
+    }
+    #HotelDeLaMer{
+        width:  100%;
+        bottom: 5em;
+    }
+    #AubergeLePanier{
+        width:  100%;
+    }
+    #HotelChezAmina{
+        width:  100%;
+        bottom: 7em;
+    }
+
+
+
+    #ContainerHebergementEtPopulaires{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    #Hebergement{
+
+        width: 100%;
+        background-color: #F2F2F2;
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        position: relative;
+    
+     
+        
+
+    }
+
+    #Hebergement h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1.3em;
+        padding: 1.25em 0em 0em 1.275em;
+        margin: 0em;
+    }
+
+    .LigneHebergement{
+        display: flex;
+        margin-top: 1em;
+        position:relative;
+        flex-wrap: wrap;
+    }
+
+    .CadreImage {
+        height: 7em ;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .BaseHebergement {
+        position: relative;
+        margin:  1em auto;
+        width: 14em;
+        height: 12em;
+        overflow: hidden;
+        border: 0.25em solid #ffffff; 
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+        border-radius: 1.25em;
+        display: flex;
+        background-color: #ffffff;
+    }
+    .BaseHebergement:hover{
+        border: 0.25em solid  #0065FC; 
+    }
+
+    .ImageHebergement{
+        object-fit: cover;
+        z-index: 1;
+        position: relative;
+    }
+    .InformationHebergement {
+        padding: 0.3em;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 2;
+    }
+    .InformationHebergement h3 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        margin:  0.25em 0.25em 0.25em 0.25em;
+        font-size: 0.9em;
+    }
+
+    section h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+}
+
+    .InformationHebergement p {
+        margin: 0.25em;
+        font-size: 0.8em;
+    }
+    .EtoilesHebergement {
+        display: flex;
+        margin: 0.25em;
+    }
+
+    #AfficherPlusHebergement {
+        font-family: 'Raleway', Arial, serif;
+        font-size: 1em;
+        margin: 2em 0em 2em 1.875em;
+        position: relative;
+        bottom: 0em;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #HotelToutBleuEtBlanc{
+    width: 100%;
+    }
+
+
+    #Populaires {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0em auto 5em auto;
+    }
+    #PopulaireTitreEtIcone{
+        width: 100%;
+        display: flex;  
+        justify-content: space-between;
+    }
+    #PopulaireTitreEtIcone h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1.3em;
+        padding: 1.25em 0em 0em 1.875em;
+    }
+    .IconeNoir{
+        font-size: 1.3em;
+        color: #000000;
+    }
+
+    #IconeGraphique{    
+        margin-top: 2.5em;
+        margin-right: 2.5em;   
+    }
+
+
+    .BasePopulaire a{
+        display: flex ;
+    }
+
+    .CadrePopulaire{
+        height: 9.063em;
+        width: 10em;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .ImagePopulaire{
+        height: 100%;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .InformationPopulaire{
+        z-index: 2;
+        width: 70%;
+        height: 9.063em;
+    }
+    .EtoilesPopulaire {
+        display: flex;
+        position: absolute;
+        margin: 2.75em 0.25em 0.25em 0.738em;
+        bottom: 0em;
+    }
+    .BasePopulaire{
+        position: relative;
+        margin:  0 auto;
+        border: 0.25em solid #ffffff;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+        overflow: hidden;    
+        height: 9.063em;
+        width: 30%;
+        margin-top: 1.875em;
+        background-color: #ffffff;
+    }
+
+
+    .BasePopulaire:hover{
+        border: 0.25em solid #0065FC;
+    }
+    .InformationPopulaire h2 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        margin: 1em 0.25em 0.25em 0.938em;
+        font-size: 0.9em;
+        text-decoration: none ;
+    }
+    .InformationPopulaire p {
+        margin: 0.25em 0.25em 0.25em 0.6em;
+        font-size: 0.8em;
+        text-decoration: none ;
+    }
+
+
+
+    #FortDePomegues{
+        position: relative;
+        width: 100%;
+        bottom: 5em;
+        left: 0em;
+    }
+    #IleDuFrioul{
+        position: relative;
+        bottom: 8.75em;
+        right: 12.5em;
+    }
+
+    #ParcNationalDesCalanques{
+        position: relative;
+        right: 6.25em;
+    }
+
+    #NotreDameDeLaGarde{
+        position: relative;
+        bottom: 3.125em;
+        right: 7.5em;
+    }
+    #ParcLongchamp{
+        position: relative;
+        bottom: 5.313em;
+        right: 6.25em;
+    }
+
+
+    #Activites h2 {
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        font-size: 1.3em;
+        text-decoration: none ;
+        margin-top: 1.875em;
+    }
+    #LigneActivite{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    .BaseActivite1{
+        position: relative;
+        width: 22%;
+        height: 27.5em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+
+
+    .CadreActivite1 {
+        height: 24em;
+        width: auto;
+        overflow: hidden;
+        
+    }
+
+    .ImageActivite{
+        height: 24em;
+        object-fit: contain;
+        z-index: 1;
+    }
+    .InformationActivite{
+        position: relative;
+        height: 4em;
+        width: 100%;
+        z-index: 2;
+        background-color: #ffffff;
+        bottom: 0;
+    }
+    .InformationActivite h3{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+        margin: 0.6em 0.25em 0.25em 0.938em;
+        font-size: 1em;
+        text-decoration: none ;
+        vertical-align: middle;
+    }
+    .ActiviteColumn{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+    }
+    .BaseActivite2{
+        position: relative;
+        margin-bottom: 2.5em;
+        width: 100%;
+        height: 14.688em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite2 {
+        height:11em;
+        width: auto;
+        overflow: hidden;
+    }
+    .BaseActivite3{
+        position: relative;
+        margin-bottom: 1.25em;
+        width: 100%;
+        height: 10.313em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite3 {
+        height: 7em;
+        width: auto;
+        overflow: hidden;
+        
+    }
+
+    .BaseActivite4{
+        position: relative;
+        margin-bottom: 1.25em;
+        width: 100%;
+        height: 13.125em;
+        overflow: hidden;
+        border-radius: 1.25em;
+        box-shadow: 0.25em 0.25em 0.938em #22201fa2;
+    }
+    .CadreActivite4 {
+        height: 10em;
+        width: auto;
+        overflow: hidden;
+        
+    }   
+
+
+
+
+}
+
+
+
+@media all and (max-width: 767.98px) {
  
     #Container{
         position: relative;
@@ -697,11 +1348,10 @@
     #InscriptionMobil a{
         position: relative;
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         color: #0065FC;
         text-decoration: none; 
     }
-
-
 
    
     
@@ -717,27 +1367,31 @@
 
     
     .Menu a{
-
+        width: 50%;
         position: relative;
-        font-size: 0.6em;
+        font-size: 0.7em;
         color: #000000;
         text-decoration: none; 
-        padding: 30px 38% 20px 38%;
-        border-bottom: 0.125em solid #F2F2F2;
+        padding: 1.875em 45% 1.25em 30%;
+        border-bottom: 0.25em solid #F2F2F2;
     }
     
     .Menu a:hover{
-        font-family: 'Raleway-Bold', Arial, serif;
         color: #0065FC;
-        border-bottom: 0.125em solid #0065FC;
+        border-bottom: 0.25em solid #0065FC;
     }
     
     #Inscription {
         display:none;
     }
     
+    #CadreMobile{
+        padding: 0 1em 0 1em ;
+    }
+
     #Accroche {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.4em;
     }
     
@@ -759,6 +1413,7 @@
     }
     #PositionTexte {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         padding: 0.625em 15% 0.625em 0.625em;
         text-decoration: none;
@@ -787,6 +1442,7 @@
     
     #FiltreFiltre{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         padding:  0.938em 0.938em 0.313em 0.938em;
         padding-right: 100%;
@@ -798,9 +1454,9 @@
         height: 1.875em;
         margin: 0.625em 0.625em 0.188em 0.625em;
         align-items :center;
-        border-radius:1.25em 1.25em 1.25em 1.25em;
+        border-radius:1.5em ;
         border: 0.125em solid #F2F2F2;  
-        padding: 0.125em 0.375em 0.125em 0em;
+        padding: 0.55em 0.375em 0.55em 0em;
       }
     
       
@@ -809,69 +1465,73 @@
         height: 1.875em;
         margin: 0.625em 0.625em 0.188em 0.625em;
         align-items :center;
-        border-radius:1.25em 1.25em 1.25em 1.25em;
+        border-radius:1.5em ;
         border: 0.125em solid #F2F2F2;  
-        padding: 0.125em 0.375em 0.125em 0em;
+        padding: 0.55em 0.375em 0.55em 0em;
         background-color: #0065FC;
       }
       
       #FiltreEconomique{
-        border-radius:1.25em 1.25em 1.25em 1.25em;
-        padding: 0.625em 0.625em 0.625em 0.625em;
-        margin: 0em ;
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
         background-color:  #DEEBFF; 
       }
       #TexteEconomique{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0em 0.625em 0em 0.625em;
       }
     
       #FiltreFamilial{
-        border-radius:1.25em 1.25em 1.25em 1.25em;
-        padding: 0.625em 0.625em 0.625em 0.625em;
-        margin: 0em ;
-        background-color:  #DEEBFF;
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF; 
       }
       #TexteFamilial{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em 1.25em 1.25em 1.25em;
         padding: 0em 0.625em 0em 0.625em;
       }
     
       #FiltreRomantique{
-        border-radius:1.25em;
-        padding: 0.625em;
-        margin: 0em ;
-        background-color:  #DEEBFF; 
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
+        background-color:  #DEEBFF;  
       }
       #TexteRomantique{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
         border-radius:1.25em;
         padding: 0em 0.625em 0em 0.625em;
       }
     
       #FiltreAnimauxAutorises{
-        border-radius:1.25em;
-        padding: 0.625em;
-        margin: 0em ;
+        border-radius:1.5em;
+        padding: 1em;
+        margin: 02em 0 2em 0 ;
         background-color:  #DEEBFF; 
-      }
+    }
       #TexteAnimauxAutorises{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1em;
-        border-radius:1.25em;
-        padding: 0em 0.625em 0em 0.625em;
-      }
+        border-radius:1.25em 1.25em 1.25em 1.25em;
+        padding: 0.825em 0.825em 0.825em 0.825em;
+    }
     
      #Info{
-        font-size: 0.7em;
+        font-size: 0.9em;
         border-radius:1.25em;
         padding: 0.313em 0.438em 0.313em 0.438em;
-        margin: 0.438em 0.438em 0em 0em ;
+        margin: 0.8em 0.438em 0em 0em ;
         border: 2px solid #F2F2F2; 
      }
      #LigneInfo{
@@ -900,16 +1560,17 @@
         flex-direction: column;
     }
     .FooterParagraphe{
-        margin-left: 1.875em
+        margin-left: 2.5em ;
     }
     .TitreFooter{
         margin-top: 2.188em ;
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         font-size: 1.2em;
     }
     ul {
         list-style:none;
-        margin-left:0.625em;
+        margin-left:0em;
         padding-left:0;
         }
     li {
@@ -920,32 +1581,29 @@
     
     /* Section */
     #AubergeCannebiere{
-        height: 18.75em;
-        right: 0em;
-        bottom: 5em;
-    }
-    #HotelDuPort{
-        height: 18.75em;
-        bottom: 6.25em;
-    }
-    #HotelLesMouettes{
-        height: 18.75em;
-        bottom: 6.25em;
-        right: 2.5em;
-    }
-    #HotelDeLaMer{
-        height: 18.75em;
-        bottom: 7.5em;
-    }
-    #AubergeLePanier{
-        height: 18.75em;
-        bottom: 5em;
-        right: 2.5em;
-    }
-    #HotelChezAmina{
-        height: 40.625em;
-        bottom: 18.75em;
-    }
+        width:  100%;
+        bottom: 4em;
+        }
+        #HotelDuPort{
+            width: 100%;
+            bottom: 4em;
+        }
+        #HotelLesMouettes{
+            width:  100%;
+            bottom: 4em;
+        }
+        #HotelDeLaMer{
+            width:  100%;
+            bottom: 7em;
+        }
+        #AubergeLePanier{
+            width:  100%;
+            bottom: 4em;
+        }
+        #HotelChezAmina{
+            width:  100%;
+            bottom: 14.5em;
+        }
     
     
     
@@ -962,10 +1620,11 @@
         position: relative;
     }
     
-    #Hebergement h1{
+    #Hebergement h2{
         font-family: 'Raleway-Bold', Arial, serif;
-        font-size: 1.3em;
-        padding: 1.25em 0em 0em 1.875em;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 1.25em 0em 0em 1.275em;
     }
     
     .LigneHebergement{
@@ -974,15 +1633,19 @@
 
     }
 
- 
+    .CadreImage {
+        height: 7em ;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
   
 
     .BaseHebergement {
 
         position: relative;
-        margin:  0% 2%  0 2% ;
         width: 85%;
-        height: 12.5em;
+        height: 12em;
         overflow: hidden;
         border: 0.25em solid #ffffff; 
         box-shadow: 0.25em 0.25em 0.938em #22201fa2;
@@ -996,25 +1659,24 @@
         border: 0.25em solid  #0065FC; 
     }
     .ImageHebergement{
-        height: 12.5em;
         z-index: 1;
         position: relative;
     }
     .InformationHebergement {
-        height: 35% ;
+        padding: 0.3em;
         width: 100%;
         background-color: #ffffff;
         z-index: 2;
-        border-radius:0em 0em 0.938em 0.938em;
-        position: absolute;
-        left: 0;
-        bottom: 0em;
     }
-    .InformationHebergement h2 {
+    .InformationHebergement h3 {
         font-family: 'Raleway-Bold', Arial, serif;
         margin:  0.5em 0.25em 0.25em 0.25em;
         font-size: 0.9em;
     }
+    section h2{
+        font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
+}
     .InformationHebergement p {
         margin: 0.25em;
         font-size: 0.8em;
@@ -1027,7 +1689,7 @@
     #AfficherPlusHebergement {
         font-family: 'Raleway-Bold', Arial, serif;
         font-size: 1em;
-        margin: 2.5em 0em 1.875em 1.875em;
+        margin: 2.5em 0em 1.875em 2.2em;
         position: relative;
         bottom: 0em;
     }
@@ -1037,9 +1699,8 @@
     
     
     #HotelToutBleuEtBlanc{
-        height: 17.5em;
-        bottom: 3.125em;
-    }
+        width: 100%;
+        }
     
     
     #Populaires {
@@ -1052,13 +1713,14 @@
         display: flex;  
         justify-content: space-between;
     }
-    #PopulaireTitreEtIcone h1{
+    #PopulaireTitreEtIcone h2{
         font-family: 'Raleway-Bold', Arial, serif;
-        font-size: 1.3em;
-        padding: 1.25em 0em 0em 1.875em;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 0.8em 0em 0em 1.275em;
     }
     .IconeNoir{
-        font-size: 1.3em;
+        font-size: 1.5em;
         color: #000000;
     }
     
@@ -1066,31 +1728,37 @@
         margin-top: 2.5em;
         margin-right: 2.5em;   
     }
-    
-    .ImagePopulaire{
+    .BasePopulaire a{
+        display: flex ;
+    }
+
+
+    .CadrePopulaire{
         height: 9.063em;
+        width: 10em;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+
+    .ImagePopulaire{
+        height: 100%;
         z-index: 1;
-        position: relative;
+        object-fit: cover;
     }
     
     .InformationPopulaire{
-        position: absolute;
         z-index: 2;
-        background-color: #ffffff;
-        right: -1.25em;
         width: 50%;
         height: 9.063em;
-        bottom: 0em;
-        margin:  0 5% 0 5% ;
     }
     .EtoilesPopulaire {
         display: flex;
-        margin: 4px 4px 4px 15px;
-        position: absolute;
-        bottom: 10px;
-    
+        margin: 2.75em 0.25em 0.25em 0.738em;
+        bottom: 0em;
     }
-    .BasePoupulaire{
+    .BasePopulaire{
         position: relative;
         margin:  0 auto;
         border: 0.25em solid #ffffff;
@@ -1100,46 +1768,65 @@
         height: 9.063em;
         width: 85%;
         margin-top: 1.875em;
+        background-color: #ffffff;
     }
-    .BasePoupulaire:hover{
+    .BasePopulaire:hover{
         border: 0.25em solid #0065FC;
     }
     .InformationPopulaire h2 {
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         margin: 1.5em 0.25em 0.25em 0.938em;
         font-size: 0.9em;
         text-decoration: none ;
     }
     .InformationPopulaire p {
-        margin: 4px 4px 4px 15px;
+        margin: 0.25em 0.25em 0.25em 0.938em;
         font-size: 0.8em;
         text-decoration: none ;
     }
     
     
-
     #VieuxPort{
-        height: 6.875em; 
+        position: relative;
+        width: 100%;
+        height: auto;
+        bottom: 2em;
+        left: 0em; 
     }
-
     #FortDePomegues{
-        bottom: 10em;
+        position: relative;
+        width: 100%;
+        height: auto;
+        bottom: 15em;
+        left: 0em;
     }
     #IleDuFrioul{
+        width: 100%;
+        position: relative;
         bottom: 8.75em;
-        right: 12.5em;
+    
     }
+
     #ParcNationalDesCalanques{
-        right: 6.25em;
-        bottom: 8.75em
+        width: 100%;
+        position: relative;
+        bottom: 9em;
+      
     }
+
     #NotreDameDeLaGarde{
+        width: 100%;
+        position: relative;
         bottom: 3.125em;
-        right: 7.5em;
+       
     }
     #ParcLongchamp{
+        width: 100%;
+        position: relative;
         bottom: 5.313em;
-        right: 6.25em;
+        
+        
     }
 
 
@@ -1150,7 +1837,7 @@
     }
     
     
-    #Activites h1 {
+    #Activites h2 {
         font-family: 'Raleway-Bold', Arial, serif;
         font-size: 1.4em;
         text-decoration: none ;
@@ -1171,13 +1858,34 @@
         margin-top: 1.875em;
         height: 12.5em;
         overflow: hidden;
-         border-radius: 1.25em;
+        border-radius: 1.25em;
         box-shadow: 0.25em 0.25em 0.938em #22201fa2;
     }
 
+    .CadreActivite1 {
+        height: 9em;
+        width: auto;
+        overflow: hidden; 
+    }
+    .CadreActivite2 {
+        height: 9em;
+        width: auto;
+        overflow: hidden; 
+    }
+    .CadreActivite3 {
+        height: 9em;
+        width: auto;
+        overflow: hidden; 
+    }
+    .CadreActivite4 {
+        height: 9em;
+        width: auto;
+        overflow: hidden; 
+    } 
     .ImageActivite{
+        height: 24em;
+        object-fit: cover;
         z-index: 1;
-        position: relative;
     }
     .InformationActivite{
         position: relative;
@@ -1187,8 +1895,9 @@
         background-color: #ffffff;
         bottom: 0;
     }
-    .InformationActivite h2{
+    .InformationActivite h3{
         font-family: 'Raleway-Bold', Arial, serif;
+        font-weight: bold;
         margin: 1.125em 0.25em 0.25em 0.938em;
         font-size: 1em;
         text-decoration: none ;
