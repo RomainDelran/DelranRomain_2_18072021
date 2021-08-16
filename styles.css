@@ -248,7 +248,7 @@
         justify-content: space-between;  
     }
     .FooterParagraphe{
-        margin-left: 5%;
+        margin: 0em;
     }
     .TitreFooter{
         margin-top: 2.188em ;
@@ -1261,7 +1261,7 @@
     #Container{
         position: relative;
         width: 100%;
-        margin: 0;
+        margin: 0em;
     }
 
 
@@ -1330,7 +1330,7 @@
     
     nav{
         display: flex;
-        width: 100%;
+        width: 95%;
     }
 
  
@@ -1525,6 +1525,7 @@
     }
     .FooterParagraphe{
         margin-left: 2.5em ;
+        margin-right: 0em;
     }
     .TitreFooter{
         margin-top: 2.188em ;
