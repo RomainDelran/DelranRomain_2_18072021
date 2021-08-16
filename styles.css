@@ -254,10 +254,11 @@
         margin-top: 2.188em ;
         font-weight: bold;
         font-size: 1.2em;
+        margin-left: 4em;
     }
     ul {
         list-style:none;
-        margin-left:0;
+        margin-left: 5em;
         padding-left:0;
         }
     li {
