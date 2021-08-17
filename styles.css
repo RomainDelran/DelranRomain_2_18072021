@@ -611,7 +611,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 991px) {
     body {
         margin:0.15em 0em 0em 0em ;
         padding: 0em;
@@ -1257,7 +1257,7 @@
 
 
 
-@media all and (max-width: 767.98px) {
+@media all and (max-width: 575.98px) {
  
     #Container{
         
@@ -1331,14 +1331,16 @@
     
     nav{
         display: flex;
-        width: 99.5%;
+        width: 100%;
         margin: 0em;
+        padding: 0em;
     }
 
  
     .Menu{
         width: 50%;
         margin: 0em;
+        padding: 0em;
     }
 
     
@@ -1348,8 +1350,9 @@
         font-size: 0.7em;
         color: #000000;
         font-weight:lighter;
-        padding: 1.875em 45% 1.25em 30%;
+        padding: 1.875em 33% 1.25em 33%;
         border-bottom: 0.25em solid #F2F2F2;
+        margin: 0em;
     }
     
     .Menu a:hover{
@@ -1415,8 +1418,8 @@
     #FiltreFiltre{
         font-weight: bold;
         font-size: 1em;
-        padding:  0.938em 0.938em 0.313em 0em;
-        padding-right: 80%;
+        padding:  0.938em 80% 0.313em 0em;
+        
     }
     
     
