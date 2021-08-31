@@ -269,26 +269,7 @@
 
     /* Section */
 
-    #AubergeCannebiere{
-    width:  100%;
-    }
-    #HotelDuPort{
-        width: 100%;
-    }
-    #HotelLesMouettes{
-        width:  100%;
-    }
-    #HotelDeLaMer{
-        width:  100%;
-        bottom: 5em;
-    }
-    #AubergeLePanier{
-        width:  100%;
-    }
-    #HotelChezAmina{
-        width:  100%;
-        bottom: 7em;
-    }
+
 
 
 
@@ -326,6 +307,7 @@
 
     .CadreImage {
         height: 7em ;
+        width: 15em;
         z-index: 0;
         overflow: hidden;
     }
@@ -347,9 +329,9 @@
     }
 
     .ImageHebergement{
+        height: 100%;
+        width:100%;
         object-fit: cover;
-        z-index: 1;
-        position: relative;
     }
     .InformationHebergement {
         padding: 0.3em;
@@ -388,9 +370,7 @@
 
 
 
-    #HotelToutBleuEtBlanc{
-    width: 100%;
-    }
+
 
 
     #Populaires {
@@ -432,7 +412,7 @@
 
     .ImagePopulaire{
         height: 100%;
-        z-index: 1;
+        width:100%;
         object-fit: cover;
     }
 
@@ -478,33 +458,7 @@
 
 
 
-    #FortDePomegues{
-        position: relative;
-        width: 100%;
-        bottom: 5em;
-        left: 0em;
-    }
-    #IleDuFrioul{
-        position: relative;
-        bottom: 8.75em;
-        right: 12.5em;
-    }
-
-    #ParcNationalDesCalanques{
-        position: relative;
-        right: 6.25em;
-    }
-
-    #NotreDameDeLaGarde{
-        position: relative;
-        bottom: 3.125em;
-        right: 7.5em;
-    }
-    #ParcLongchamp{
-        position: relative;
-        bottom: 5.313em;
-        right: 6.25em;
-    }
+    
 
 
     #Activites h2 {
@@ -536,7 +490,8 @@
     }
 
     .ImageActivite{
-        height: 24em;
+        height: 100%;
+        width:100%;
         object-fit: cover;
         z-index: 1;
     }
@@ -906,26 +861,7 @@
 
 /* Section */
 
-#AubergeCannebiere{
-    width:  100%;
-    }
-    #HotelDuPort{
-        width: 100%;
-    }
-    #HotelLesMouettes{
-        width:  100%;
-    }
-    #HotelDeLaMer{
-        width:  100%;
-        bottom: 5em;
-    }
-    #AubergeLePanier{
-        width:  100%;
-    }
-    #HotelChezAmina{
-        width:  100%;
-        bottom: 7em;
-    }
+
 
 
 
@@ -964,6 +900,7 @@
 
     .CadreImage {
         height: 7em ;
+        width: 15em;
         z-index: 0;
         overflow: hidden;
     }
@@ -985,9 +922,9 @@
     }
 
     .ImageHebergement{
+        height: 100%;
+        width:100%;
         object-fit: cover;
-        z-index: 1;
-        position: relative;
     }
     .InformationHebergement {
         padding: 0.3em;
@@ -1026,9 +963,7 @@
 
 
 
-    #HotelToutBleuEtBlanc{
-    width: 100%;
-    }
+ 
 
 
     #Populaires {
@@ -1073,7 +1008,7 @@
 
     .ImagePopulaire{
         height: 100%;
-        z-index: 1;
+        width:100%;
         object-fit: cover;
     }
 
@@ -1119,33 +1054,7 @@
 
 
 
-    #FortDePomegues{
-        position: relative;
-        width: 100%;
-        bottom: 5em;
-        left: 0em;
-    }
-    #IleDuFrioul{
-        position: relative;
-        bottom: 8.75em;
-        right: 12.5em;
-    }
 
-    #ParcNationalDesCalanques{
-        position: relative;
-        right: 6.25em;
-    }
-
-    #NotreDameDeLaGarde{
-        position: relative;
-        bottom: 3.125em;
-        right: 7.5em;
-    }
-    #ParcLongchamp{
-        position: relative;
-        bottom: 5.313em;
-        right: 6.25em;
-    }
 
 
     #Activites h2 {
@@ -1177,7 +1086,8 @@
     }
 
     .ImageActivite{
-        height: 24em;
+        height: 100%;
+        width:100%;
         object-fit: cover;
         z-index: 1;
     }
@@ -1551,26 +1461,7 @@
 
 /* Section */
 
-#AubergeCannebiere{
-    width:  100%;
-    }
-    #HotelDuPort{
-        width: 100%;
-    }
-    #HotelLesMouettes{
-        width:  100%;
-    }
-    #HotelDeLaMer{
-        width:  100%;
-        bottom: 5em;
-    }
-    #AubergeLePanier{
-        width:  100%;
-    }
-    #HotelChezAmina{
-        width:  100%;
-        bottom: 7em;
-    }
+
 
 
 
@@ -1609,6 +1500,7 @@
 
     .CadreImage {
         height: 7em ;
+        width: 15em;
         z-index: 0;
         overflow: hidden;
     }
@@ -1630,9 +1522,10 @@
     }
 
     .ImageHebergement{
-        object-fit: cover;
         z-index: 1;
-        position: relative;
+        height: 100%;
+        width:100%;
+        object-fit: cover;
     }
     .InformationHebergement {
         padding: 0.3em;
@@ -1671,9 +1564,7 @@
 
 
 
-    #HotelToutBleuEtBlanc{
-    width: 100%;
-    }
+
 
 
     #Populaires {
@@ -1718,6 +1609,7 @@
 
     .ImagePopulaire{
         height: 100%;
+        width:100%;
         z-index: 1;
         object-fit: cover;
     }
@@ -1764,33 +1656,7 @@
 
 
 
-    #FortDePomegues{
-        position: relative;
-        width: 100%;
-        bottom: 5em;
-        left: 0em;
-    }
-    #IleDuFrioul{
-        position: relative;
-        bottom: 8.75em;
-        right: 12.5em;
-    }
-
-    #ParcNationalDesCalanques{
-        position: relative;
-        right: 6.25em;
-    }
-
-    #NotreDameDeLaGarde{
-        position: relative;
-        bottom: 3.125em;
-        right: 7.5em;
-    }
-    #ParcLongchamp{
-        position: relative;
-        bottom: 5.313em;
-        right: 6.25em;
-    }
+    
 
 
     #Activites h2 {
@@ -1822,7 +1688,8 @@
     }
 
     .ImageActivite{
-        height: 24em;
+        height: 100%;
+        width:100%;
         object-fit: cover;
         z-index: 1;
     }
@@ -1979,25 +1846,22 @@
     }
 
  
-    .Menu{
-        width: 50%;
-        margin: 0;
-        padding: 0em;
-    }
+  
 
     
-    .Menu a{
+    .Menu{
         width: 50%;
         position: relative;
-        font-size: 0.7em;
+        font-size: 1em;
         color: #000000;
-        font-weight:lighter;
-        padding: 1.875em 33% 1.25em 33%;
+        font-weight:500;
+        padding: 1.875em 0 1.25em 0;
         border-bottom: 0.25em solid #F2F2F2;
         margin: 0;
+        text-align: center;
     }
     
-    .Menu a:hover{
+    .Menu:hover{
         color: #0065FC;
         border-bottom: 0.25em solid #0065FC;
     }
@@ -2030,9 +1894,11 @@
         border-radius:0.625em 0px 0px 0.625em;
     }
     #PositionTexte {
+        overflow: hidden;
         font-weight: bold;
         font-size: 1em;
-        padding: 0.625em 15% 0.625em 0.625em;
+        padding: 1em;
+        width: 12em;
         text-decoration: none;
         border: 0.25em 0 0.625em ;
         box-sizing: border-box;
@@ -2079,7 +1945,7 @@
       .Filtres a:hover{
         display: flex;
         height: 1.875em;
-        margin: 0.625em 0.625em 0.188em 0.625em;
+        margin: 0.625em 0.625em 0.188em 0;
         align-items :center;
         border-radius:1.5em ;
         border: 0.125em solid #F2F2F2;  
@@ -2192,30 +2058,7 @@
     
     
     /* Section */
-    #AubergeCannebiere{
-        width:  100%;
-        bottom: 4em;
-        }
-        #HotelDuPort{
-            width: 100%;
-            bottom: 4em;
-        }
-        #HotelLesMouettes{
-            width:  100%;
-            bottom: 4em;
-        }
-        #HotelDeLaMer{
-            width:  100%;
-            bottom: 7em;
-        }
-        #AubergeLePanier{
-            width:  100%;
-            bottom: 4em;
-        }
-        #HotelChezAmina{
-            width:  100%;
-            bottom: 14.5em;
-        }
+
     
     
     
@@ -2246,7 +2089,6 @@
 
     .CadreImage {
         height: 7em ;
-        object-fit: cover;
         z-index: 0;
         overflow: hidden;
     }
@@ -2271,7 +2113,9 @@
     }
     .ImageHebergement{
         z-index: 1;
-        position: relative;
+        height: 100%;
+        width:100%;
+        object-fit: cover;
     }
     .InformationHebergement {
         padding: 0.3em;
@@ -2308,9 +2152,7 @@
     
     
     
-    #HotelToutBleuEtBlanc{
-        width: 100%;
-        }
+ 
     
     
     #Populaires {
@@ -2345,7 +2187,6 @@
     .CadrePopulaire{
         height: 9.063em;
         width: 10em;
-        object-fit: cover;
         z-index: 0;
         overflow: hidden;
     }
@@ -2353,6 +2194,7 @@
 
     .ImagePopulaire{
         height: 100%;
+        width:100%;
         z-index: 1;
         object-fit: cover;
     }
@@ -2363,6 +2205,7 @@
         height: 9.063em;
     }
     .EtoilesPopulaire {
+        position: absolute;
         display: flex;
         margin: 2.75em 0.25em 0.25em 0.738em;
         bottom: 0em;
@@ -2395,47 +2238,9 @@
     }
     
     
-    #VieuxPort{
-        position: relative;
-        width: 100%;
-        height: auto;
-        bottom: 2em;
-        left: 0em; 
-    }
-    #FortDePomegues{
-        position: relative;
-        width: 100%;
-        height: auto;
-        bottom: 15em;
-        left: 0em;
-    }
-    #IleDuFrioul{
-        width: 100%;
-        position: relative;
-        bottom: 8.75em;
-    
-    }
+  
 
-    #ParcNationalDesCalanques{
-        width: 100%;
-        position: relative;
-        bottom: 9em;
-      
-    }
-
-    #NotreDameDeLaGarde{
-        width: 100%;
-        position: relative;
-        bottom: 3.125em;
-       
-    }
-    #ParcLongchamp{
-        width: 100%;
-        position: relative;
-        bottom: 5.313em;
-        
-        
-    }
+ 
 
 
 
@@ -2491,9 +2296,9 @@
         overflow: hidden; 
     } 
     .ImageActivite{
-        height: 24em;
+        height: 100%;
+        width:100%;
         object-fit: cover;
-        z-index: 1;
     }
     .InformationActivite{
         position: relative;
